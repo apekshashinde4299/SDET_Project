@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="courseName" value="Selenium"/>
+  <parameter name="cityName" value="Nashik"/>
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="failtestcases.AutomaticallyRunTestScript"/>
+  </listeners>
+  <test thread-count="5" name="/Users/santosh/IdeaProjects/MavenProject(failed)">
+    <classes>
+      <class name="failtestcases.FailTestCaseExample2">
+        <methods>
+          <include name="testCase_11"/>
+        </methods>
+      </class> <!-- failtestcases.FailTestCaseExample2 -->
+    </classes>
+  </test> <!-- /Users/santosh/IdeaProjects/MavenProject(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
